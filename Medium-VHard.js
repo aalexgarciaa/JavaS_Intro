@@ -15,11 +15,11 @@ var operation = window.prompt("Enter an operation:");
 var num2 = window.prompt("Enter a second number:");
 
 if(operation === "+"){
-    console.log(num1+num2);
+    console.log(`${num1} + ${num2} = ${num1+num2}`);
 }else if (operation === "-"){
-    console.log("num1-num2");
+    console.log(`${num1} - ${num2} = ${num1-num2}`);
 }else if (operation === "*"){
-    console.log(num1 *num2);
+    console.log(`${num1} * ${num2} = ${num1*num2}`);
 }else{
-    console.log(num1/num2);
+    console.log(`${num1} / ${num2} = ${num1/num2}`);
 }
