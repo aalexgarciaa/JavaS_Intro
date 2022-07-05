@@ -1,9 +1,5 @@
-const readLine = require('readLine').createInterface({
-    input: process.stdin,
-    output:process.stdout
-});
+var sentence = window.prompt("Please say something:");
 
-readLine.question('Can you say somethng?', sentence => {
     if(sentence === sentence.toUpperCase()){
         console.log("Why are you yelling..")
     }else if(sentence === sentence.toLowerCase()){
@@ -11,6 +7,3 @@ readLine.question('Can you say somethng?', sentence => {
     }else{
         console.log("Thank you for talking normally.") 
     }
-    line.toLocaleLowerCase();
-})
-
